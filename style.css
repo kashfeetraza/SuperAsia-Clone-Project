@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+
+.navupper{
+    width: 97%;
+    /* border: 1px solid black; */
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    background-color: rgb(60,64,67);
+    color: white;
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.navupper ul{
+    display: flex;
+    list-style: none;
+    justify-content: start;
+    padding-left: 25px;
+}
+
+.navupper ul li img{
+    padding: 5px 15px;
+}
+
+#text1{
+    position: absolute;
+    top: 5px;
+    left: 42%;
+}
+
+
+.navi{
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    background-color: rgb(184,226,228);
+    margin: auto;
+    width: 97%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.navi1 img{
+    padding: 5px;
+    padding-left: 20px;
+}
+.navi2 ul{
+    display: flex;
+    list-style: none;
+}
+
+
+.navi2 ul li{
+    padding: 20px;
+}
+
+.navi4{
+    position: absolute;
+    top: 10px;
+    left: 35%;
+}
+.navi4 ul{
+    display: flex;
+    list-style: none;
+}
+
+.navi4 ul li{
+    padding: 20px;
+}
+
+.image1{
+     margin: auto;
+    width: 97%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.image1 img{
+    border-radius: 5px;
+}
+
+.productlist{
+    margin: auto;
+    width: 95%;
+    margin-top: 10px;
+    border-radius: 5px;
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+}
+
+.productlist1{
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    width: 25%;
+    height: 450px;
+    background-color: rgb(233,248,255);
+}
+
+
+.productlist1text{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(96, 101, 101);
+    text-align: center;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.twooption1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+#imgborder{
+    border: 1px solid rgb(195, 202, 202);
+    border-radius: 5px;
+}
+
+.twooption1price{
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgb(96, 101, 101);
+}
+
+.productlist1img img{
+    border-radius: 5px;
+}
+
+.iole{
+    text-align: center;
+    padding: 15px;
+}
+
+
+.threeoption{
+    width: 97%;
+    /* border: 1px solid blue; */
+    
+            margin: auto;
+        margin-top: 10px;
+    border-radius: 5px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+}
+
+.threeoption1{
+    width: 32.33%;
+    /* border: 1px solid hotpink; */
+    border-radius: 5px;
+}
+.threeoption1 img{
+    padding: 40px;
+}
+
+.banner{
+    /* border: 1px solid hotpink; */
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+}
+.banner img{
+    width: 100%;
+}
+
+.productliststyle{
+    /* border: 1px solid hotpink; */
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    align-items: center;
+
+}
+
+.productliststyle1{
+    width: 32.33%;
+    height: 670px;
+    /* border: 1px solid rgb(32, 8, 78); */
+    border-radius: 5px;
+}
+
+.productliststyle1img img{
+    width: 100%;
+}
+
+.productliststyle1heading{
+    font-family: "Nunito", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    color: rgb(60, 64, 67);
+    padding: 10px;
+}
+
+.productliststyle1text{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(96, 101, 101);
+    padding: 20px;
+    
+}
+
+.productliststyle1btn{
+    display: flex;
+    justify-content: center;
+}
+
+.productliststyle1btn button{
+    font-family: "Nunito", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(27,115,232);
+    border-radius: 6px;
+    border: transparent;
+}
